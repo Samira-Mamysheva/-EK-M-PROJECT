@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SİPARİŞ FORMU</title>
+    <style>
+        /* Sayfanın tamamını flexbox ile hizala */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Tüm ekran yüksekliğini kapsar */
+            margin: 0; /* Tarayıcı varsayılan boşluklarını kaldır */
+            background-color: #b3ed8c;
+            padding: 20px 0; /* Üst ve alt boşluk */
+        }
+
+        /* Form kapsayıcısı */
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px; /* Kutuyu hafif eğimli yapmak için */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+            max-width: 400px;
+            width: 90%; /* Mobil uyum için genişlik */
+        }
+
+        /* Form elemanlarına stil */
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input, form select, form button {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px; /* Form elemanlarına da hafif eğim */
+        }
+
+        form button {
+            background-color: yellowgreen;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px; /* Düğmeye hafif eğim */
+            transition: background-color 0.3s;
+        }
+
+        form button:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="">
+            <label for="isim">Ad:</label>
+            <input type="text" name="isim" id="isim" placeholder="Adınız">
+            
+            <label for="soyad">Soyad:</label>
+            <input type="text" name="soyad" id="soyad" placeholder="Soyadınızı Giriniz">
+            
+            <label for="eposta">E-Posta:</label>
+            <input type="email" name="eposta" id="eposta" placeholder="E-Posta Adresinizi Giriniz">
+            
+            <label for="sifre">Şifre:</label>
+            <input type="password" name="sifre" id="sifre" placeholder="Şifre Giriniz">
+            
+            <label for="telefon">Telefon: </label>
+            <input type="tel" name="telefon" id="telefon" placeholder="Telefon Numaranızı Giriniz">
+            
+            <label for="tarih">Doğum Tarihi: </label>
+            <input type="date" name="tarih" id="tarih" placeholder="Doğum Tarihini Giriniz">
+            
+            <label for="cinsiyet">Cinsiyet: </label>
+            <label for="kadın">Kadın</label>
+            <input type="radio" name="cinsiyet" id="kadın" value="kadın">
+            <label for="erkek">Erkek</label>
+            <input type="radio" name="cinsiyet" id="erkek" value="erkek">
+            
+            <label for="adres">Çiçek Türü: </label>
+            <select name="" id="">
+                <option value="devetabani">Deve Tabanı</option>    
+                <option value="pasakilici">Paşa Kılıcı</option>
+                <option value="yukaagac">Kor Tabanı</option>
+                <option value="limonservi">Limon Servi</option>
+                <option value="arekapalmiyesi">Areka Palmiyesi</option>    
+                <option value="alacalıkaucuk">Alacalı Kauçuk</option>
+                <option value="bariscicek">Barış Çiçeği</option>
+                <option value="ficus">Ficus</option>
+            </select>
+            
+            <label for="adres">Adres Bilginizi Giriniz: </label>
+            <input type="text" name="adres" id="adres" placeholder="Adres Bilgilerinizi Giriniz">
+            
+            <label for="kart">Kart Sahibi Adı-Soyad:</label>
+            <input type="text" name="kart" id="kart" placeholder="Kart Sahibinin Adı-Soyad Bilgilerini Giriniz">
+            
+            <label for="kartsifre">Kart Numarası:</label>
+            <input type="password" name="kartsifre" id="kartsifre" placeholder="Kart Numaranızı Giriniz">
+            
+            <label for="sonkullanımtarih">Son Kullanım Tarihi: </label>
+            <input type="text" name="sonkullanımtarih" id="sonkullanımtarih" placeholder="Son Kullanım Tarihini Giriniz">
+            
+            <label for="password">Güvenlik Kodu: </label>
+            <input type="text" name="kod" id="kod" placeholder="Güvenlik Kodunu Giriniz">
+            
+            <button type="submit"><a href="siparis_form_devam.html" target="_blank">  Sipariş Formunu Gönder</button>
+        </form>
+    </div>
+</body>
+</html>

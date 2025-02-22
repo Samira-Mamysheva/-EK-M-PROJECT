@@ -1,0 +1,100 @@
+.box-container {
+    		display: flex; 			  /* Flex düzeni uygula */
+    		justify-content: center; /* Yatayda merkezle */
+    		flex-wrap: wrap; 		/* Kutular bir satıra sığmazsa alta geçsin */
+    		gap: 20px; 			/* Kutular arasında boşluk */
+    		margin: 0 auto;    /* Kapsayıcıyı ortala */
+    		padding: 20px;    /* İçerik boşluğu ekle */
+			}
+
+
+		.baslik{
+			text-align: center;
+			color: black;
+			background-color: #328c32;
+			font-family: "Oswald", serif;
+		}
+		.ul1{
+			background-color: #328c32;
+			list-style-type: none;
+			width: 100%;
+		}
+		.ul1 li{
+			display: inline-block;
+			width: 140px;
+			padding: -5px;
+			margin-right: 10px;
+			margin-left: 5px;
+		}
+		.ul1 li a{
+			text-decoration: none;
+			color: #196719;
+		}
+		.ul1 li:hover{
+			background-color: #77DD77;
+			transition: 0.9;
+		}
+		i{
+			padding-right: 10px;
+			color:#196719;
+		}
+		.baslik2{
+			text-align: center;
+			color: black;
+			background-color: #328c32;
+			font-family: "Oswald", serif;
+
+
+
+
+		}
+		.box1{
+			width: 300px;
+			height: 350px;
+			background-color: #4fc24f
+;
+			display: inline-block;
+		}
+		.box2{
+			width: 300px;
+			height: 350px;
+			background-color: #4fc24f
+;
+			display: inline-block;
+		}
+		.box3{
+			width: 300px;
+			height: 350px;
+			background-color: #4fc24f
+;
+			display: inline-block;
+		}
+		.box4{
+			width: 300px;
+			height: 350px;
+			background-color: #4fc24f;
+			display: inline-block;
+		}
+		.foto{
+			padding-left: 50px;
+		}
+		.baslik3{
+            padding-left: 80px;
+            font-family: "Bebas Neue", serif;
+		}
+		.baslik4{
+			padding-left: 60px;
+			font-family: "Bebas Neue", serif;
+		}
+		.baslik5{
+			padding-left: 60px;
+			font-family: "Bebas Neue", serif;
+		}
+		.baslik6{
+			padding-left: 60px;
+			font-family: "Bebas Neue", serif;
+		}
+		b{
+			padding-left: 120px;
+			font-family: "Bebas Neu", serif;
+		}

@@ -1,0 +1,56 @@
+body {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    background-color: #EAF4E3;
+}
+
+.baslik {
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #328c32;
+    padding: 20px;
+    border-radius: 15px;
+    width: 60%;
+    margin: 50px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.baslik2 {
+    font-size: 36px;
+    color: #328c32;
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 50%;
+    margin: 30px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box1 {
+    background-color: #F6FFF2;
+    padding: 30px;
+    border-radius: 10px;
+    width: 320px;
+    margin: 50px auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.a1 {
+    font-size: 18px;
+    color: #05472A;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.a1:hover {
+    color: #328c32;
+    text-decoration: underline;
+}
+
+.fa-phone, .fa-instagram, .fa-envelope {
+    margin-right: 10px;
+    color: #328c32;
+}

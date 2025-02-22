@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #cf9bfa;
+
+.box1 {
+  width: 900px;
+  height: 450px;
+  padding: 30px;
+  background-color: #328c32;
+  border-radius: 15px;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-family: "Oswald", serif;
+  font-size: 100px;
+}
